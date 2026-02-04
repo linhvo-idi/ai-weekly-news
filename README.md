@@ -4,13 +4,13 @@ Weekly newsletter tracking AI developments relevant to the international develop
 
 ## 🌐 View the Newsletter
 
-- **Latest issue:** [https://linhvo-idi.github.io/ai-newsletter/](https://linhvo-idi.github.io/ai-newsletter/index.html)
-- **Archive:** [https://linhvo-idi.github.io/ai-newsletter/archive.html](https://linhvo-idi.github.io/ai-newsletter/archive.html)
+- **Latest issue:** [https://linhvo-idi.github.io/ai-weekly-news/index.html](https://linhvo-idi.github.io/ai-weekly-news/index.html)
+- **Archive:** [https://linhvo-idi.github.io/ai-weekly-news/archive.html](https://linhvo-idi.github.io/ai-weekly-news/archive.html)
 
 ## 📁 Repository Structure
 
 ```
-ai-newsletter/
+ai-weekly-news/
 ├── index.html          ← Latest newsletter (overwritten each week)
 ├── archive.html        ← Archive listing page
 ├── archive/            ← Past issues
@@ -25,7 +25,7 @@ ai-newsletter/
 3. Go to **Settings → Pages**
 4. Under "Source", select `main` branch and `/ (root)` folder
 5. Click Save
-6. Your site will be live at `https://linhvo-idi.github.io/ai-newsletter/`
+6. Your site will be live at `https://linhvo-idi.github.io/ai-weekly-news/`
 
 ## 📅 Weekly Workflow
 
