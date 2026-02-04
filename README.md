@@ -4,7 +4,7 @@ Weekly newsletter tracking AI developments relevant to the international develop
 
 ## 🌐 View the Newsletter
 
-- **Latest issue:** [https://linhvo-idi.github.io/ai-newsletter/](https://linhvo-idi.github.io/ai-newsletter/)
+- **Latest issue:** [https://linhvo-idi.github.io/ai-newsletter/](https://linhvo-idi.github.io/ai-newsletter/index.html)
 - **Archive:** [https://linhvo-idi.github.io/ai-newsletter/archive.html](https://linhvo-idi.github.io/ai-newsletter/archive.html)
 
 ## 📁 Repository Structure
