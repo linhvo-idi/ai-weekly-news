@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive | AI for Development Scan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #1C2F62;
+            --secondary-blue: #212E38;
+            --light-blue: #E8EEF7;
+            --dark-gray: #434343;
+            --medium-gray: #666666;
+            --light-gray: #F7F7F7;
+            --white: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--white);
+            color: var(--dark-gray);
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        .header {
+            background: var(--primary-blue);
+            color: var(--white);
+            padding: 32px 0;
+            margin-bottom: 40px;
+        }
+
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .header-logo {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            opacity: 0.7;
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .header-nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            opacity: 0.9;
+            padding: 8px 16px;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 6px;
+            transition: opacity 0.2s;
+        }
+
+        .header-nav a:hover {
+            opacity: 1;
+            background: rgba(255,255,255,0.1);
+        }
+
+        /* Content */
+        .content {
+            padding-bottom: 60px;
+        }
+
+        .page-title {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--primary-blue);
+            margin-bottom: 8px;
+        }
+
+        .page-subtitle {
+            font-size: 14px;
+            color: var(--medium-gray);
+            margin-bottom: 32px;
+        }
+
+        /* Archive List */
+        .archive-list {
+            list-style: none;
+        }
+
+        .archive-item {
+            border-bottom: 1px solid #E5E5E5;
+        }
+
+        .archive-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            text-decoration: none;
+            color: var(--dark-gray);
+            transition: background 0.2s;
+        }
+
+        .archive-link:hover {
+            background: var(--light-gray);
+            margin: 0 -16px;
+            padding: 20px 16px;
+        }
+
+        .archive-date {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--secondary-blue);
+        }
+
+        .archive-meta {
+            font-size: 12px;
+            color: var(--medium-gray);
+            text-align: right;
+        }
+
+        .archive-count {
+            background: var(--light-blue);
+            color: var(--primary-blue);
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 11px;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--medium-gray);
+        }
+
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--light-gray);
+            padding: 24px 0;
+            text-align: center;
+            font-size: 12px;
+            color: var(--medium-gray);
+        }
+
+        @media (max-width: 600px) {
+            .header-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .archive-link {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+            .archive-meta {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div>
+                <div class="header-logo">IDinsight AI Hub</div>
+                <h1 class="header-title">AI for Development Scan</h1>
+            </div>
+            <nav class="header-nav">
+                <a href="index.html">← Latest Issue</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page content">
+        <h2 class="page-title">Archive</h2>
+        <p class="page-subtitle">All past issues of the AI for Development Scan</p>
+
+        <ul class="archive-list">
+            <!-- ADD NEW ISSUES HERE (newest first) -->
+            <!-- Example entry:
+            <li class="archive-item">
+                <a href="archive/ai-newsletter-2026-01-27-to-2026-02-03.html" class="archive-link">
+                    <span class="archive-date">Jan 27 – Feb 3, 2026</span>
+                    <span class="archive-meta"><span class="archive-count">13 updates</span></span>
+                </a>
+            </li>
+            -->
+            
+            <!-- Remove this empty state once you have entries -->
+            <li class="empty-state">
+                <div class="empty-state-icon">📭</div>
+                <p>No archived issues yet. Check back after the first scan!</p>
+            </li>
+        </ul>
+    </main>
+
+    <footer class="footer">
+        <p>Generated by Claude for IDinsight AI Hub</p>
+    </footer>
+</body>
+</html>
