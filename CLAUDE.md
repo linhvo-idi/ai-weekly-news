@@ -1,4 +1,4 @@
-This folder is a GitHub repository for the AI for Development newsletter.
+This folder is a GitHub repository for the AI Digest for IDinsight.
 
 When I give you a zip file containing newsletter HTML files to publish:
 
