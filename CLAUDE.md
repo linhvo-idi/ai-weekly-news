@@ -19,6 +19,5 @@ When I give you a zip file containing newsletter HTML files to publish:
 5. Run these commands in sequence:
    git add .
    git commit -m "Add newsletter: [date range]"
-   git push
 
-6. Confirm when done and provide the live URL
+6. Confirm when done and request the user to push to save the changes.
