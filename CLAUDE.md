@@ -1,12 +1,14 @@
 This folder is a GitHub repository for the AI Digest for IDinsight.
 
-When I give you a zip file containing newsletter HTML files to publish:
+When I say "Start":
 
-1. Extract and save the index.html newsletter content as `index.html` in the root (overwrite existing)
+1. Search for a zip file called files.zip in the root folder. 
 
-2. Save the dated copy to `archive'
+2. Extract and save the index.html newsletter content as `index.html` in the root (overwrite existing)
 
-3. Edit `archive.html` to add a new entry at the TOP of the <ul class="archive-list">, directly after the <!-- ADD NEW ISSUES HERE --> comment. Use this format:
+3. Save the dated copy to `archive'
+
+4. Edit `archive.html` to add a new entry at the TOP of the <ul class="archive-list">, directly after the <!-- ADD NEW ISSUES HERE --> comment. Use this format:
    <li class="archive-item">
        <a href="archive/ai-newsletter-[START]-to-[END].html" class="archive-link">
            <span class="archive-date">[Human-readable date range, e.g., "Jan 27 – Feb 10, 2026"]</span>
@@ -14,10 +16,12 @@ When I give you a zip file containing newsletter HTML files to publish:
        </a>
    </li>
 
-4. Remove the "empty state" <li> if it still exists (the one with 📭 emoji)
+5. Remove the "empty state" <li> if it still exists (the one with 📭 emoji)
 
-5. Run these commands in sequence:
+6. Delete the files.zip file.
+
+7. Run these commands in sequence:
    git add .
    git commit -m "Add newsletter: [date range]"
 
-6. Confirm when done and request the user to push to save the changes.
+8. Confirm when done and request the user to push to save the changes.
